@@ -2,7 +2,7 @@
 
 <h1> Abstract </h1>
 <hr/>
-Implementation of the <b>ps2 protocol for the keyboard</b>, where the device is a keyboard with a ps2 serial port, and the host is an <b><i>Altera Cyclone® V FPGA board</i>< /b>.
+Implementation of the <b>ps2 protocol for the keyboard</b>, where the device is a keyboard with a ps2 serial port, and the host is an <b><i>Altera Cyclone® V FPGA board</i></b>.
 
 Implementation involves going through all stages of software development for hardware:
 <ol>
