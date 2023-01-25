@@ -14,13 +14,13 @@ Implementation involves going through all stages of software development for har
 
 <h1>Navigation</h1>
 
-<h3>
+
 In the folder src/simulation there are source files used for the simulation.
 In the subfolder <b>modules<b> there are implementations of the used module written in Verilog.
 In addition, on the path src/simulation there is a file testbench_uvm, which represents the source code for verification, written in Systemerilog using the standard library UVM (Universal Verification Methodology library).
-</h3>
 
-<h3>
+
+
 The src/synthesis path contains files relevant to synthesis on the Altera Cyclone® V FPGA board.
 the path src/synthesis/modules contains the implemented modules:
 <ol>
@@ -30,15 +30,15 @@ the path src/synthesis/modules contains the implemented modules:
 </ol>
 
 On the path src/syntesis/ there is also the file DEO_TOP0.v which represents the file in which things are instantiated and from which the program for the FPGA board will be synthesized.
-</h3>
+
 
 <h1>Starting up</h1>
 
 
 <h3>Before starting, make sure you have pre-installed Altera ModelSim, Quartus II and QuestaSim as well as connected Altera Cyclone® V FPGA board. </h3>
 
-<h3>In order to start one of the development phases, it is necessary to use the makefile located in the path src/tooling/xpack/makefile
-If it is started from the Windows operating system, it is necessary to install and run <b>Cygwin<b> in order to simulate linux functions on windows from the terminal.</h3>
+In order to start one of the development phases, it is necessary to use the makefile located in the path src/tooling/xpack/makefile
+If it is started from the Windows operating system, it is necessary to install and run <b>Cygwin<b> in order to simulate linux functions on windows from the terminal.
 
 Inside the makefile, with the <b></i>help</i></b> command, we get a list of possible commands for starting phases.
 
