@@ -44,3 +44,32 @@ If it is started from the Windows operating system, it is necessary to install a
 Inside the makefile, with the <b></i>help</i></b> command, we get a list of possible commands for starting phases.
 
 The command <b></i>simul_run</i></b> starts the verification while the command <b></i>synth_pgm</i></b> starts the tools of the synthesis program and puts program to the connected FPGA board.
+
+<h3>Implementation</h3>
+<hr/>
+
+<h2>Specification:<h2>
+  <ul>
+    <li>PS/2 protocol is a serial protocol for communication between devices and keyboards.</li>
+    <li>Communication is performed using two signals:</li>
+    <ol> 
+      <li>PS2_KBCLK which represents the keyboard clock signal (10-16.7kH) to which data is sent.</li>
+      <li>PS2_KBDAT through which data from the keyboard is sent serially.</li>
+    </ol>
+    <li>Data is sent on the falling edge of the keyboard clock signal.</li>
+    <li>When no data is sent, the PS2_KBDAT signal has a value of one.</li>
+    <li>Sending data starts with the START bit (value 0), followed by 8 DATA bits (sent first
+the lowest bit), followed by the ODD_PARITY bit (odd parity), and finally the STOP bit is sent
+(value 1).</li>
+    <li>If a key whose make code has more than one byte is pressed, older bytes are sent first, using the same principle as sending from the lowest bits</li>
+    <li>When a button on the keyboard is pressed or released, the keyboard sends a code over the protocol
+pressed (make code) or released (break code) button.</li>
+    <li>The code can be of different lengths (1B, 2B, 4B, ...).</li>
+    <li>The code of the released button is formed by adding F0 to the code of the pressed button
+the two highest bytes.</li>
+    <li>If a button whose make code is larger than one byte is released, then a break code is created by adding F0 between the first and second byte.</li>
+  </ul> 
+ 
+
+
+
