@@ -47,6 +47,9 @@ The command <b><i>simul_run</i></b> starts the verification while the command <b
 
 <h3>Implementation</h3>
 <hr/>
+The goal of my project was to implement this protocol so that the last two bytes of pressed and released keyboard codes (make and break codes) are displayed on the seven-segment display of an Altera Cyclone® V FPGA board. 
+I wrote the software for this board so that the board and the keyboard communicate via ps2 protocol and send values that will be shown on the display.
+
 
 <h2>Specification:</h2>
   <ul>
