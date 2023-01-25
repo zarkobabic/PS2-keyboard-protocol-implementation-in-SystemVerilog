@@ -39,11 +39,11 @@ On the path <b><i>src/syntesis/</i></b> there is also the file DEO_TOP0.v which 
 <h3>Before starting, make sure you have pre-installed Altera ModelSim, Quartus II and QuestaSim as well as connected Altera Cyclone® V FPGA board. </h3>
 
 In order to start one of the development phases, it is necessary to use the makefile located in the path <b><i>src/tooling/xpack/makefile</i></b>
-If it is started from the Windows operating system, it is necessary to install and run <b>Cygwin<b> in order to simulate linux functions on windows from the terminal.
+If it is started from the Windows operating system, it is necessary to install and run <b>Cygwin</b> in order to simulate linux functions on windows from the terminal.
 
-Inside the makefile, with the <b></i>help</i></b> command, we get a list of possible commands for starting phases.
+Inside the makefile, with the <b><i>help</i></b> command, we get a list of possible commands for starting phases.
 
-The command <b></i>simul_run</i></b> starts the verification while the command <b></i>synth_pgm</i></b> starts the tools of the synthesis program and puts program to the connected FPGA board.
+The command <b><i>simul_run</i></b> starts the verification while the command <b><i>synth_pgm</i></b> starts the tools of the synthesis program and puts program to the connected FPGA board.
 
 <h3>Implementation</h3>
 <hr/>
