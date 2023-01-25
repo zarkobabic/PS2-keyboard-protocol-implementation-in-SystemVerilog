@@ -6,9 +6,9 @@ I implemented the ps2 protocol for the keyboard, where the device is a keyboard 
 
 Implementation involves going through all stages of software development for hardware:
 <ol>
-  <li><b><i>Simulation using Verilog and Altera ModelSim</i><b></li>
-  <li><b><i>Synthesis using Verilog and Quartus II</i><b></li>
-  <li><b><i>Verification using SystemVerilog and QuestaSim</i><b></li>
+  <li><b><i>Simulation using Verilog and Altera ModelSim</i></b></li>
+  <li><b><i>Synthesis using Verilog and Quartus II</i></b></li>
+  <li><b><i>Verification using SystemVerilog and QuestaSim</i></b></li>
 </ol>
 
 
@@ -16,7 +16,7 @@ Implementation involves going through all stages of software development for har
 
 
 In the folder src/simulation there are source files used for the simulation.
-In the subfolder <b>modules<b> there are implementations of the used module written in Verilog.
+In the subfolder <b>modules</b> there are implementations of the used module written in Verilog.
 In addition, on the path src/simulation there is a file testbench_uvm, which represents the source code for verification, written in Systemerilog using the standard library UVM (Universal Verification Methodology library).
 
 
