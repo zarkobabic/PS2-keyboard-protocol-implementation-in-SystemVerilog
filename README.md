@@ -71,7 +71,10 @@ pressed (<b><i>make code</i></b>) or released (<b><i>break code</i></b>) button.
 the two highest bytes.</li>
     <li>If a button whose make code is larger than one byte is released, then a break code is created by adding <b><i>F0</i></b> between the first and second byte.</li>
   </ul> 
-![PS2 protocol](https://user-images.githubusercontent.com/92127059/214636529-8c3c4e53-1b29-49b0-88b9-d12afaf71f2e.png)
+
+
+![output-onlinepngtools](https://user-images.githubusercontent.com/92127059/214636635-406e36c2-41d8-4862-81df-948c28664375.png)
+
 
 
 
