@@ -1,0 +1,26 @@
+QuestaSim-64 vopt 10.7c Compiler 2018.08 Aug 18 2018
+Start time: 18:16:10 on Jan 23,2023
+vopt -work work -l ./vlog_compile.log -override_timescale 1 ps / 1 ps "+acc" -o optimized_design ps2 testbench_uvm 
+
+Top level modules:
+	ps2
+	testbench_uvm
+
+Analyzing design...
+-- Loading module ps2
+-- Loading module testbench_uvm
+-- Loading interface ps2_if
+-- Loading package mtiUvm.questa_uvm_pkg
+Optimizing 7 design-units (inlining 0/4 module instances):
+-- Optimizing module ps2(fast)
+-- Optimizing module testbench_uvm(fast)
+-- Optimizing interface ps2_if(fast)
+-- Optimizing interface ps2_if(fast)
+-- Optimizing package testbench_uvm_sv_unit(fast)
+** Warning: ../src/simulation/testbench_uvm.sv(49): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../src/simulation/testbench_uvm.sv(183): (vopt-2250) Function "write" has no return value assignment.
+-- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+-- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+Optimized design name is optimized_design
+End time: 18:16:11 on Jan 23,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2

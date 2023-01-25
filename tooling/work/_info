@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ua190061/Desktop/sranje (1)/sranje/tooling
+Toptimized_design
+!s110 1674494170
+V3Cn^YhF`Q>m41Tz41I5R<2
+04 3 4 work ps2 fast 0
+04 13 4 work testbench_uvm fast 0
+o-work work -override_timescale {1 ps / 1 ps} +acc
+Z1 tCvgOpt 0
+noptimized_design
+OL;O;10.7c;67
+vps2
+!s110 1674494169
+!i10b 1
+!s100 YWH3^j2=fgZmc4I<SW1VP1
+I7V2T2LoIB2_JmOgf_Xz3<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1674494148
+8../src/simulation/modules/ps2.v
+F../src/simulation/modules/ps2.v
+L0 1
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1674494169.000000
+Z5 !s107 C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../src/simulation/testbench_uvm.sv|../src/simulation/modules/ps2.v|
+Z6 !s90 -work|work|-l|./vlog_compile.log|-override_timescale|1 ps / 1 ps|../src/simulation/modules/ps2.v|../src/simulation/testbench_uvm.sv|
+!i113 0
+Z7 o-work work -override_timescale {1 ps / 1 ps} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yps2_if
+Z8 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z9 DXx6 mtiUvm 7 uvm_pkg 0 22 3zPkj@YUcM=M^m3zCLh<H1
+Z10 DXx4 work 21 testbench_uvm_sv_unit 0 22 21XMe3aSU?1HI1ENJd[fM2
+R2
+r1
+!s85 0
+!i10b 1
+!s100 fCa^4ifok?]VQb]nOfWBb1
+I5gBeDmL<HL]PIePNQo3JV2
+Z11 !s105 testbench_uvm_sv_unit
+S1
+R0
+Z12 w1674494161
+Z13 8../src/simulation/testbench_uvm.sv
+Z14 F../src/simulation/testbench_uvm.sv
+L0 318
+R3
+31
+R4
+R5
+R6
+!i113 0
+R7
+R1
+vtestbench_uvm
+R8
+R9
+R10
+R2
+r1
+!s85 0
+!i10b 1
+!s100 Bi;[URmAn>HI58CTiieDI1
+IA_2An^cIgUcfeWTjeeF`>2
+R11
+S1
+R0
+R12
+R13
+R14
+L0 330
+R3
+31
+R4
+R5
+R6
+!i113 0
+R7
+R1
+Xtestbench_uvm_sv_unit
+!s115 ps2_if
+R8
+R9
+V21XMe3aSU?1HI1ENJd[fM2
+r1
+!s85 0
+!i10b 1
+!s100 mPb^@U6Mg?C5eXPd0ibjg1
+I21XMe3aSU?1HI1ENJd[fM2
+!i103 1
+S1
+R0
+R12
+R13
+R14
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+FC:/Program1/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+L0 2
+R3
+31
+R4
+R5
+R6
+!i113 0
+R7
+R1

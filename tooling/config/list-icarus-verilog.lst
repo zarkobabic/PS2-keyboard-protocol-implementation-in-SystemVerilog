@@ -1,0 +1,4 @@
++libdir+src\simulation\
++libdir+src\simulation\modules\
++libdir+src\synthesis\
++libdir+src\synthesis\modules\
