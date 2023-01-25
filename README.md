@@ -1,6 +1,7 @@
 # PS2-keyboard-protocol-implementation-in-SystemVerilog
 
 <h1> Abstract </h1>
+<hr/>
 
 I implemented the ps2 protocol for the keyboard, where the device is a keyboard with a ps2 serial port, and the host is an Altera Cyclone® V FPGA board.
 
@@ -13,7 +14,7 @@ Implementation involves going through all stages of software development for har
 
 
 <h1>Navigation</h1>
-
+<hr/>
 
 In the folder src/simulation there are source files used for the simulation.
 In the subfolder <b>modules</b> there are implementations of the used module written in Verilog.
@@ -33,7 +34,7 @@ On the path src/syntesis/ there is also the file DEO_TOP0.v which represents the
 
 
 <h1>Starting up</h1>
-
+<hr/>
 
 <h3>Before starting, make sure you have pre-installed Altera ModelSim, Quartus II and QuestaSim as well as connected Altera Cyclone® V FPGA board. </h3>
 
