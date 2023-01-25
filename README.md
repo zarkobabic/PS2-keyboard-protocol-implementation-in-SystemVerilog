@@ -73,8 +73,7 @@ the two highest bytes.</li>
   </ul> 
 
 
-![output-onlinepngtools](https://user-images.githubusercontent.com/92127059/214636635-406e36c2-41d8-4862-81df-948c28664375.png)
-
+![PS2 protocol](https://user-images.githubusercontent.com/92127059/214636730-5efa16aa-2b93-4855-afef-f4641048e39a.png)
 
 
 
