@@ -42,4 +42,4 @@ If it is started from the Windows operating system, it is necessary to install a
 
 Inside the makefile, with the <b></i>help</i></b> command, we get a list of possible commands for starting phases.
 
-The command <b></i>simul_run</i></b> starts the verification while the command <b></i>synth_pgm</i></b> starts the tools of the synthesis program and the download program to the connected PPGA plate.
+The command <b></i>simul_run</i></b> starts the verification while the command <b></i>synth_pgm</i></b> starts the tools of the synthesis program and puts program to the connected FPGA board.
