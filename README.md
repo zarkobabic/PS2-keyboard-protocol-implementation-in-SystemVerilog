@@ -2,7 +2,6 @@
 
 <br />
 
-![PS2controllerBackground](https://user-images.githubusercontent.com/92127059/227191772-0696c74a-cff6-4c4c-93f7-6a29d17b3d8f.png) 
 ![PS2controllerBackground2](https://user-images.githubusercontent.com/92127059/227193010-e34ea40c-71a8-4dda-ae5a-c853211aa4d1.png)
 
 <h1> Abstract </h1>
