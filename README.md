@@ -1,5 +1,9 @@
 # PS2-keyboard-protocol-implementation-in-SystemVerilog
 
+![PS2controllerBackground](https://user-images.githubusercontent.com/92127059/227191772-0696c74a-cff6-4c4c-93f7-6a29d17b3d8f.png)
+
+
+
 <h1> Abstract </h1>
 <hr/>
 Implementation of the <b>ps2 protocol for the keyboard</b>, where the device is a keyboard with a ps2 serial port, and the host is an <b><i>Altera Cyclone® V FPGA board</i></b>.
