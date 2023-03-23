@@ -15,14 +15,28 @@ Implementation involves going through all stages of software development for har
 <h1>Navigation</h1>
 <hr/>
 
-In the folder <b><i>src/simulation</i></b> there are source files used for the simulation.
-In the subfolder <b>modules</b> there are implementations of the used module written in Verilog.
-In addition, on the path <b><i>src/simulation</i></b> there is a file testbench_uvm, which represents the source code for verification, written in Systemerilog using the standard library UVM (Universal Verification Methodology library).
+In the folder 
+```html
+  src/simulation
+```
+there are source files used for the simulation.
+In the subfolder <b><i>modules</i></b> there are implementations of the used module written in Verilog.
+<br />
+In addition, there is a file <b><i>testbench_uvm</i></b>, which represents the source code for verification, written in SystemVerilog using the standard library UVM (Universal Verification Methodology library).
 
 
 
-The <b><i>src/synthesis</i></b> path contains files relevant to synthesis on the Altera Cyclone® V FPGA board.
-the path <b><i>src/synthesis/modules</i></b> contains the implemented modules:
+The 
+```html
+  src/synthesis
+```
+path contains files relevant to synthesis on the Altera Cyclone® V FPGA board.
+<br/>
+The path 
+```html
+  src/synthesis/modules
+```
+contains the implemented modules:
 <ol>
 <li><b><i>deb.v which is a debouncer for the keyboard clock signal</i></b></li>
 <li><b><i>hex.v which is a module for reading hex values on the seven-segment display of the FPGA board</i></b></li>
@@ -37,12 +51,33 @@ On the path <b><i>src/syntesis/</i></b> there is also the file DEO_TOP0.v which 
 
 <h3>Before starting, make sure you have pre-installed Altera ModelSim, Quartus II and QuestaSim as well as connected Altera Cyclone® V FPGA board. </h3>
 
-In order to start one of the development phases, it is necessary to use the makefile located in the path <b><i>src/tooling/xpack/makefile</i></b>
+In order to start one of the development phases, it is necessary to use the makefile located in the path:
+```html
+  src/tooling/xpack/makefile
+```
+
 If it is started from the Windows operating system, it is necessary to install and run <b>Cygwin</b> in order to simulate linux functions on windows from the terminal.
 
-Inside the makefile, with the <b><i>help</i></b> command, we get a list of possible commands for starting phases.
+Inside the makefile, with the:
+```html
+  help
+```
+command, we get a list of possible commands for starting phases.
 
-The command <b><i>simul_run</i></b> starts the verification while the command <b><i>synth_pgm</i></b> starts the tools of the synthesis program and puts program to the connected FPGA board.
+<br />
+The command:
+
+```html
+  simul_run
+```
+
+starts the verification, while the command:
+ 
+```html
+  synth_pgm
+```
+
+starts the tools of the synthesis program and puts program to the connected FPGA board.
 
 <h3>Implementation</h3>
 <hr/>
